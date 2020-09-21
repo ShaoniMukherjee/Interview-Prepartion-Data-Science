@@ -1,0 +1,30 @@
+Naive Bayes is the most straightforward and fast classi cation algorithm, which is suitable
+for a large chunk of data. Naive Bayes classi er is successfully used in various applications
+such as spam  ltering, text classi cation, sentiment analysis, and recommender systems.
+It uses Bayes theorem of probability for prediction of unknown class.
+
+Classification Workflow
+Whenever you perform classi cation, the  rst step is to understand the problem and
+identify potential features and label. Features are those characteristics or attributes
+which affect the results of the label. For example, in the case of a loan distribution, bank
+manager's identify customer’s occupation, income, age, location, previous loan history,
+transaction history, and credit score. These characteristics are known as features which
+help the model classify customers.
+
+The classi cation has two phases, a learning phase, and the evaluation phase. In the
+learning phase, classi er trains its model on a given dataset and in the evaluation phase, it
+tests the classi er performance. Performance is evaluated on the basis of various
+parameters such as accuracy, error, precision, and recall.
+
+What is Naive Bayes Classifier?
+Naive Bayes is a statistical classi cation technique based on Bayes Theorem. It is one of
+the simplest supervised learning algorithms. Naive Bayes classi er is the fast, accurate
+and reliable algorithm. Naive Bayes classi ers have high accuracy and speed on large
+datasets.
+
+Naive Bayes classi er assumes that the effect of a particular feature in a class is
+independent of other features. For example, a loan applicant is desirable or not depending
+on his/her income, previous loan and transaction history, age, and location. Even if these
+features are interdependent, these features are still considered independently. This
+assumption simpli es computation, and that's why it is considered as naive. This
+assumption is called class conditional independence.
